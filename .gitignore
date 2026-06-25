@@ -1,12 +1,6 @@
 # Data files
 data/
 
-# Secrets / credentials (never commit these)
-client_secrets.json
-credentials.json
-token.pickle
-drive_folder_id.txt
-
 # Virtual environments
 .venv*/
 venv/
