@@ -16,3 +16,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Secrets
+client_secrets.json
+credentials.json
+token.pickle
+*.pickle
