@@ -27,6 +27,7 @@ request = {
         "07", "08", "09",
         "10", "11", "12",
     ],
+    "grid": [2.0, 2.0],
     "time": ["00:00"],
     "data_format": "netcdf",
     "download_format": "zip",
