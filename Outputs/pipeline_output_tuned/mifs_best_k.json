@@ -1,0 +1,30 @@
+{
+  "best_k": 18,
+  "best_val_rmse": 0.6408358201629634,
+  "selected_features": [
+    "sossheig_anom_z_(0.0,192.0)_lag0",
+    "sohtc300_anom_z_(0.0,198.0)_lag9",
+    "t2m_anom_z_(-14.0,252.0)_lag9",
+    "so20chgt_anom_z_(4.0,228.0)_lag1",
+    "avg_iews_anom_z_(6.0,162.0)_lag0",
+    "sst_anom_z_(2.0,178.0)_lag1",
+    "so20chgt_anom_z_(-2.0,198.0)_lag0",
+    "sohtc300_anom_z_(-10.0,276.0)_lag9",
+    "msl_anom_z_(12.0,212.0)_lag0",
+    "sossheig_anom_z_(0.0,250.0)_lag0",
+    "sohtc300_anom_z_(0.0,198.0)_lag10",
+    "sst_anom_z_(-8.0,260.0)_lag7",
+    "t2m_anom_z_(-2.0,202.0)_lag4",
+    "so20chgt_anom_z_(-4.0,212.0)_lag0",
+    "avg_iews_anom_z_(4.0,152.0)_lag0",
+    "sohtc300_anom_z_(-10.0,272.0)_lag9",
+    "so20chgt_anom_z_(2.0,232.0)_lag8",
+    "so20chgt_anom_z_(2.0,200.0)_lag0"
+  ],
+  "tuning": {
+    "MI_N_NEIGHBORS": 7,
+    "N_CANDIDATES": 400,
+    "MAX_K": 80,
+    "REDUNDANCY_BETA": 1.0
+  }
+}

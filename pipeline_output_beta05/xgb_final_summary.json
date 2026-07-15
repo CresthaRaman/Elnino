@@ -1,0 +1,35 @@
+{
+  "model": "XGBRegressor (tuned)",
+  "best_k": 14,
+  "best_params": {
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "subsample": 0.85,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 1,
+    "reg_alpha": 0
+  },
+  "test_rmse": 0.9307,
+  "test_acc": 0.7656,
+  "selected_features": [
+    "sossheig_anom_z_(0.0,192.0)_lag0",
+    "sohtc300_anom_z_(0.0,200.0)_lag9",
+    "so20chgt_anom_z_(4.0,228.0)_lag1",
+    "t2m_anom_z_(-14.0,252.0)_lag9",
+    "so20chgt_anom_z_(-4.0,212.0)_lag0",
+    "so20chgt_anom_z_(0.0,238.0)_lag0",
+    "so20chgt_anom_z_(-2.0,198.0)_lag0",
+    "sst_anom_z_(2.0,178.0)_lag1",
+    "avg_iews_anom_z_(6.0,162.0)_lag0",
+    "sohtc300_anom_z_(0.0,198.0)_lag10",
+    "sohtc300_anom_z_(-10.0,274.0)_lag7",
+    "t2m_anom_z_(-2.0,202.0)_lag4",
+    "so20chgt_anom_z_(2.0,202.0)_lag0",
+    "msl_anom_z_(12.0,212.0)_lag0"
+  ],
+  "train_samples": 457,
+  "val_samples": 48,
+  "test_samples": 35,
+  "tuning_notes": "Added subsample, colsample_bytree, min_child_weight, reg_alpha to grid. MIFS: MI_N_NEIGHBORS=7, N_CANDIDATES=400, MAX_K=80, REDUNDANCY_BETA=1.0."
+}
